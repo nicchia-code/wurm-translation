@@ -25,29 +25,6 @@
       </header>
 
       <main>
-        <section class="panel controls" aria-labelledby="card-list-heading">
-          <div class="panel-heading">
-            <div>
-              <h2 id="card-list-heading">Tournament card list</h2>
-              <p>Enter one card per line. Exact names work best; fuzzy matching is tried if needed.</p>
-            </div>
-            <button class="ghost-button" id="sample-button" type="button">Load sample</button>
-          </div>
-
-          <label class="sr-only" for="card-input">Card names</label>
-          <textarea
-            id="card-input"
-            autocomplete="off"
-            spellcheck="false"
-            placeholder="Lightning Bolt&#10;Sol Ring&#10;Counterspell"
-          ></textarea>
-
-          <div class="actions">
-            <button class="primary-button" id="load-button" type="button">Show rules</button>
-            <button class="secondary-button" id="share-button" type="button">Copy link</button>
-          </div>
-        </section>
-
         <section class="status-row" aria-live="polite">
           <div id="status">Ready</div>
           <div id="count"></div>

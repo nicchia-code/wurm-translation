@@ -5,11 +5,10 @@ A mobile-first GitHub Pages app for quickly checking the official English Oracle
 ## Use
 
 1. Open the site on a phone.
-2. Enter one card name per line.
-3. Tap **Show rules**.
-4. Use **Copy link** to create a shareable URL with the card list embedded.
+2. Scroll the fixed tournament card list.
+3. Tap a card image for a larger view.
 
-The app is intended for cards you have in other languages and need an English reference for during a tournament. Card data is requested directly from Scryfall in the browser; no backend is required.
+The app is intended for cards you have in other languages and need an English reference for during a tournament. Card data is requested directly from Scryfall in the browser; no backend is required. There is no interactive form; the card list is maintained in `src/app.js`.
 
 ## GitHub Pages deployment
 

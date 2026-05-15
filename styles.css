@@ -96,9 +96,6 @@ h1 {
 }
 
 .controls {
-  position: sticky;
-  z-index: 5;
-  top: 8px;
   padding: 14px;
 }
 
@@ -361,12 +358,12 @@ button:active {
   }
 
   .gallery {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: 1fr;
     gap: 18px;
   }
 
   .card-tile {
-    grid-template-columns: 42% 1fr;
+    grid-template-columns: minmax(150px, 36%) 1fr;
   }
 
   .dialog-images:has(img + img) {
