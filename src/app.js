@@ -3,6 +3,7 @@ const DEFAULT_CARDS = [
   "Kazuul's Fury",
   "Artifact Mutation",
   "Shamanic Revelation",
+  "Spinerock Knoll",
 ];
 
 const STORAGE_KEY = "mtg-rules-card-list";
