@@ -9,6 +9,7 @@ const DEFAULT_CARDS = [
   "Tamiyo's Safekeeping",
   "Vexing Shusher",
   "Goblin Bombardment",
+  "Return of the Wildspeaker",
 ];
 
 const STORAGE_KEY = "mtg-rules-card-list";
