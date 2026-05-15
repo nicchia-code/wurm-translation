@@ -12,6 +12,7 @@ const DEFAULT_CARDS = [
   "Return of the Wildspeaker",
   "Rogue's Passage",
   "Traverse the Outlands",
+  "Chancellor of the Forge",
 ];
 
 const STORAGE_KEY = "mtg-rules-card-list";
