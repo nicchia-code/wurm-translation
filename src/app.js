@@ -7,6 +7,7 @@ const DEFAULT_CARDS = [
   "Garruk's Uprising",
   "Kodama's Reach",
   "Tamiyo's Safekeeping",
+  "Vexing Shusher",
 ];
 
 const STORAGE_KEY = "mtg-rules-card-list";
