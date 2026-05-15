@@ -4,6 +4,7 @@ const DEFAULT_CARDS = [
   "Artifact Mutation",
   "Shamanic Revelation",
   "Spinerock Knoll",
+  "Garruk's Uprising",
 ];
 
 const STORAGE_KEY = "mtg-rules-card-list";
