@@ -10,6 +10,7 @@ const DEFAULT_CARDS = [
   "Vexing Shusher",
   "Goblin Bombardment",
   "Return of the Wildspeaker",
+  "Rogue's Passage",
 ];
 
 const STORAGE_KEY = "mtg-rules-card-list";
