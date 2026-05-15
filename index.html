@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#15111f" />
+    <meta
+      name="description"
+      content="A mobile-first Magic: The Gathering tournament rules reference powered by Scryfall."
+    />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>MTG Rules Reference</title>
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">Powered by Scryfall</p>
+          <h1>MTG Rules Reference</h1>
+          <p class="subtitle">
+            A fast mobile reference for the official English Oracle text of cards you own in other languages.
+          </p>
+        </div>
+      </header>
+
+      <main>
+        <section class="panel controls" aria-labelledby="card-list-heading">
+          <div class="panel-heading">
+            <div>
+              <h2 id="card-list-heading">Tournament card list</h2>
+              <p>Enter one card per line. Exact names work best; fuzzy matching is tried if needed.</p>
+            </div>
+            <button class="ghost-button" id="sample-button" type="button">Load sample</button>
+          </div>
+
+          <label class="sr-only" for="card-input">Card names</label>
+          <textarea
+            id="card-input"
+            autocomplete="off"
+            spellcheck="false"
+            placeholder="Lightning Bolt&#10;Sol Ring&#10;Counterspell"
+          ></textarea>
+
+          <div class="actions">
+            <button class="primary-button" id="load-button" type="button">Show rules</button>
+            <button class="secondary-button" id="share-button" type="button">Copy link</button>
+          </div>
+        </section>
+
+        <section class="status-row" aria-live="polite">
+          <div id="status">Ready</div>
+          <div id="count"></div>
+        </section>
+
+        <section class="gallery" id="gallery" aria-label="Magic card rules reference"></section>
+      </main>
+    </div>
+
+    <dialog class="card-dialog" id="card-dialog" aria-label="Card details">
+      <button class="dialog-close" id="dialog-close" aria-label="Close card details">×</button>
+      <div id="dialog-content"></div>
+    </dialog>
+
+    <template id="card-template">
+      <article class="card-tile">
+        <button class="card-image-button" type="button">
+          <img alt="" loading="lazy" />
+        </button>
+        <div class="card-meta">
+          <h3></h3>
+          <p class="type-line"></p>
+          <div class="oracle-preview"></div>
+        </div>
+      </article>
+    </template>
+
+    <script src="src/app.js" type="module"></script>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "name": "MTG Tournament Rules Reference",
+  "short_name": "MTG Rules",
+  "description": "A mobile-first Magic: The Gathering card rules reference powered by Scryfall.",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0d0b13",
+  "theme_color": "#15111f",
+  "icons": []
+}
