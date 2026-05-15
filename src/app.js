@@ -8,6 +8,7 @@ const DEFAULT_CARDS = [
   "Kodama's Reach",
   "Tamiyo's Safekeeping",
   "Vexing Shusher",
+  "Goblin Bombardment",
 ];
 
 const STORAGE_KEY = "mtg-rules-card-list";
