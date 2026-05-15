@@ -1,8 +1,5 @@
 const DEFAULT_CARDS = [
-  "Lightning Bolt",
-  "Sol Ring",
-  "Counterspell",
-  "Swords to Plowshares",
+  "Krenko, Tin Street Kingpin",
 ];
 
 const STORAGE_KEY = "mtg-rules-card-list";
