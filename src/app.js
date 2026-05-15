@@ -14,6 +14,7 @@ const DEFAULT_CARDS = [
   "Traverse the Outlands",
   "Chancellor of the Forge",
   "Tendershoot Dryad",
+  "Nature's Lore",
 ];
 
 const STORAGE_KEY = "mtg-rules-card-list";
