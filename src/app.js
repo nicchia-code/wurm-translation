@@ -11,6 +11,7 @@ const DEFAULT_CARDS = [
   "Goblin Bombardment",
   "Return of the Wildspeaker",
   "Rogue's Passage",
+  "Traverse the Outlands",
 ];
 
 const STORAGE_KEY = "mtg-rules-card-list";
