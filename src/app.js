@@ -1,6 +1,7 @@
 const DEFAULT_CARDS = [
   "Krenko, Tin Street Kingpin",
   "Kazuul's Fury",
+  "Artifact Mutation",
 ];
 
 const STORAGE_KEY = "mtg-rules-card-list";
