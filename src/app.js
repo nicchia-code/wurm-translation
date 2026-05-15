@@ -6,6 +6,7 @@ const DEFAULT_CARDS = [
   "Spinerock Knoll",
   "Garruk's Uprising",
   "Kodama's Reach",
+  "Tamiyo's Safekeeping",
 ];
 
 const STORAGE_KEY = "mtg-rules-card-list";
