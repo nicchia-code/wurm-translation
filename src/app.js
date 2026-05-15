@@ -5,6 +5,7 @@ const DEFAULT_CARDS = [
   "Shamanic Revelation",
   "Spinerock Knoll",
   "Garruk's Uprising",
+  "Kodama's Reach",
 ];
 
 const STORAGE_KEY = "mtg-rules-card-list";
